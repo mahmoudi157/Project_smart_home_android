@@ -1,0 +1,97 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<androidx.cardview.widget.CardView
+		android:id="@+id/cardview1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="7dp"
+		android:orientation="vertical"
+		app:cardElevation="5dp"
+		app:cardCornerRadius="5dp">
+		<LinearLayout
+			android:id="@+id/linear3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#FFFFFF"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal"
+			android:layout_gravity="center_horizontal|center_vertical">
+			<LinearLayout
+				android:id="@+id/linear4"
+				android:layout_width="10dp"
+				android:layout_height="match_parent"
+				android:padding="8dp"
+				android:background="#09114C"
+				android:orientation="horizontal" />
+			<LinearLayout
+				android:id="@+id/linear5"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="vertical"
+				android:layout_weight="1">
+				<TextView
+					android:id="@+id/event"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:gravity="center_horizontal|center_vertical"
+					android:text="event"
+					android:textSize="14sp"
+					android:textColor="#000321" />
+				<TextView
+					android:id="@+id/Auto"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="auto"
+					android:textSize="14sp"
+					android:textColor="#000321" />
+				<TextView
+					android:id="@+id/Date"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="date"
+					android:textSize="14sp"
+					android:textColor="#000321" />
+				<TextView
+					android:id="@+id/hum"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="temp"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/tump"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="temp"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+			</LinearLayout>
+			<ImageView
+				android:id="@+id/imageview3"
+				android:focusable="false"
+				android:layout_width="25dp"
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp"
+				android:src="@drawable/ic_chevron_left_black"
+				android:scaleType="fitXY"
+				android:rotation="180"
+				android:tint="@color/colorPrimary" />
+		</LinearLayout>
+	</androidx.cardview.widget.CardView>
+</LinearLayout>
